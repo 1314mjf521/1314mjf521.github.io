@@ -1212,7 +1212,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #55e860;
+  background: #33ff28;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2717,6 +2717,19 @@ ul.breadcrumb li + li:last-child {
 /*background: url(../images/scrollbar_arrow.png) no-repeat 0 0;*/
 /*可以添加滚动条样式*/
 }
-img.img-topic {
+.ImageGrid {
   width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+  background-color: #ddd;
+}
+.ImageInCard img {
+  padding: 0 0 0 0;
+  border-radius: 8px;
 }
